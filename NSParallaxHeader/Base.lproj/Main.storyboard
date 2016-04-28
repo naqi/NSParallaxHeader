@@ -22,92 +22,76 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ddj-ZE-hJB">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <scrollView key="tableHeaderView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="Rlk-tD-D8e">
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="XpF-Cy-5ZT">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="150"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NIX-jV-o4C">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="150"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile-512_2" translatesAutoresizingMaskIntoConstraints="NO" id="z5h-xD-OXq" customClass="NZCircularImageView">
-                                                    <rect key="frame" x="263" y="38" width="75" height="75"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="WXs-LX-ycL" customClass="UICountingLabel">
-                                                    <rect key="frame" x="180" y="38" width="75" height="75"/>
-                                                    <attributedString key="attributedText">
-                                                        <fragment>
-                                                            <string key="content">21
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile-512_2" translatesAutoresizingMaskIntoConstraints="NO" id="Dye-KB-1F0" customClass="NZCircularImageView">
+                                            <rect key="frame" x="263" y="38" width="75" height="75"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="MJX-tC-wyj" customClass="UICountingLabel">
+                                            <rect key="frame" x="180" y="38" width="75" height="75"/>
+                                            <attributedString key="attributedText">
+                                                <fragment>
+                                                    <string key="content">21
 </string>
-                                                            <attributes>
-                                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                                <font key="NSFont" size="24" name="ProximaNova-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                        <fragment content="POINTS">
-                                                            <attributes>
-                                                                <color key="NSColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
-                                                                <font key="NSFont" size="10" name="ProximaNova-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Z93-E3-GBH" customClass="UICountingLabel">
-                                                    <rect key="frame" x="346" y="38" width="75" height="75"/>
-                                                    <attributedString key="attributedText">
-                                                        <fragment>
-                                                            <string key="content">200
+                                                    <attributes>
+                                                        <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" size="24" name="ProximaNova-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="POINTS">
+                                                    <attributes>
+                                                        <color key="NSColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="10" name="ProximaNova-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="enc-rr-u7Y" customClass="UICountingLabel">
+                                            <rect key="frame" x="346" y="38" width="75" height="75"/>
+                                            <attributedString key="attributedText">
+                                                <fragment>
+                                                    <string key="content">200
 </string>
-                                                            <attributes>
-                                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                                <font key="NSFont" size="24" name="ProximaNova-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                        <fragment content="POSITON">
-                                                            <attributes>
-                                                                <color key="NSColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="deviceRGB"/>
-                                                                <font key="NSFont" size="10" name="ProximaNova-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <color key="backgroundColor" red="0.23137254900000001" green="0.70196078429999997" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
-                                            <constraints>
-                                                <constraint firstItem="z5h-xD-OXq" firstAttribute="height" secondItem="NIX-jV-o4C" secondAttribute="height" multiplier="1:2" id="1aR-n4-ckG"/>
-                                                <constraint firstItem="z5h-xD-OXq" firstAttribute="width" secondItem="NIX-jV-o4C" secondAttribute="height" multiplier="1:2" id="2S4-3t-5zb"/>
-                                                <constraint firstItem="Z93-E3-GBH" firstAttribute="height" secondItem="NIX-jV-o4C" secondAttribute="height" multiplier="1:2" id="7wN-j7-5aj"/>
-                                                <constraint firstItem="WXs-LX-ycL" firstAttribute="width" relation="greaterThanOrEqual" secondItem="NIX-jV-o4C" secondAttribute="height" multiplier="1:2" id="8Oi-bV-sTP"/>
-                                                <constraint firstItem="z5h-xD-OXq" firstAttribute="centerY" secondItem="NIX-jV-o4C" secondAttribute="centerY" id="AEO-ha-MSo"/>
-                                                <constraint firstItem="WXs-LX-ycL" firstAttribute="height" secondItem="NIX-jV-o4C" secondAttribute="height" multiplier="1:2" id="Cj3-Vn-8Zi"/>
-                                                <constraint firstItem="WXs-LX-ycL" firstAttribute="centerY" secondItem="NIX-jV-o4C" secondAttribute="centerY" id="IZ9-vx-w2t"/>
-                                                <constraint firstItem="Z93-E3-GBH" firstAttribute="width" relation="greaterThanOrEqual" secondItem="NIX-jV-o4C" secondAttribute="height" multiplier="1:2" id="PAt-N9-LYT"/>
-                                                <constraint firstItem="z5h-xD-OXq" firstAttribute="leading" secondItem="WXs-LX-ycL" secondAttribute="trailing" constant="8" id="lgQ-1Z-9f0"/>
-                                                <constraint firstItem="Z93-E3-GBH" firstAttribute="centerY" secondItem="NIX-jV-o4C" secondAttribute="centerY" id="ylL-Hu-OBy"/>
-                                                <constraint firstItem="Z93-E3-GBH" firstAttribute="leading" secondItem="z5h-xD-OXq" secondAttribute="trailing" constant="8" id="ynT-Bd-4FZ"/>
-                                                <constraint firstItem="z5h-xD-OXq" firstAttribute="centerX" secondItem="NIX-jV-o4C" secondAttribute="centerX" id="zRV-Nf-M5D"/>
-                                            </constraints>
-                                        </view>
+                                                    <attributes>
+                                                        <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" size="24" name="ProximaNova-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="POSITON">
+                                                    <attributes>
+                                                        <color key="NSColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="deviceRGB"/>
+                                                        <font key="NSFont" size="10" name="ProximaNova-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
+                                    <color key="backgroundColor" red="0.23137254900000001" green="0.70196078429999997" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
-                                        <constraint firstItem="NIX-jV-o4C" firstAttribute="width" secondItem="Rlk-tD-D8e" secondAttribute="width" id="ApS-9r-D2P"/>
-                                        <constraint firstItem="NIX-jV-o4C" firstAttribute="top" secondItem="Rlk-tD-D8e" secondAttribute="top" id="Mld-y9-tRJ"/>
-                                        <constraint firstItem="NIX-jV-o4C" firstAttribute="centerX" secondItem="Rlk-tD-D8e" secondAttribute="centerX" id="Pw2-UN-cxD"/>
-                                        <constraint firstAttribute="bottom" secondItem="NIX-jV-o4C" secondAttribute="bottom" id="dSZ-W3-9Th"/>
-                                        <constraint firstItem="NIX-jV-o4C" firstAttribute="height" secondItem="Rlk-tD-D8e" secondAttribute="height" id="fFc-cd-ruu"/>
+                                        <constraint firstItem="Dye-KB-1F0" firstAttribute="leading" secondItem="MJX-tC-wyj" secondAttribute="trailing" constant="8" id="0LN-V5-pcf"/>
+                                        <constraint firstItem="Dye-KB-1F0" firstAttribute="height" secondItem="XpF-Cy-5ZT" secondAttribute="height" multiplier="1:2" id="1e0-2H-Z6X"/>
+                                        <constraint firstItem="Dye-KB-1F0" firstAttribute="centerY" secondItem="XpF-Cy-5ZT" secondAttribute="centerY" id="43p-2C-onE"/>
+                                        <constraint firstItem="Dye-KB-1F0" firstAttribute="centerX" secondItem="XpF-Cy-5ZT" secondAttribute="centerX" id="CUN-sB-CXQ"/>
+                                        <constraint firstItem="Dye-KB-1F0" firstAttribute="width" secondItem="XpF-Cy-5ZT" secondAttribute="height" multiplier="1:2" id="GWt-PB-mN5"/>
+                                        <constraint firstItem="MJX-tC-wyj" firstAttribute="height" secondItem="XpF-Cy-5ZT" secondAttribute="height" multiplier="1:2" id="Np5-rE-G1b"/>
+                                        <constraint firstItem="enc-rr-u7Y" firstAttribute="centerY" secondItem="XpF-Cy-5ZT" secondAttribute="centerY" id="U0b-8E-4yb"/>
+                                        <constraint firstItem="enc-rr-u7Y" firstAttribute="height" secondItem="XpF-Cy-5ZT" secondAttribute="height" multiplier="1:2" id="bvg-Rb-zZ2"/>
+                                        <constraint firstItem="MJX-tC-wyj" firstAttribute="centerY" secondItem="XpF-Cy-5ZT" secondAttribute="centerY" id="rLt-tT-HF9"/>
+                                        <constraint firstItem="MJX-tC-wyj" firstAttribute="width" relation="greaterThanOrEqual" secondItem="XpF-Cy-5ZT" secondAttribute="height" multiplier="1:2" id="rfX-Zf-L2J"/>
+                                        <constraint firstItem="enc-rr-u7Y" firstAttribute="leading" secondItem="Dye-KB-1F0" secondAttribute="trailing" constant="8" id="wbL-KB-9Gn"/>
+                                        <constraint firstItem="enc-rr-u7Y" firstAttribute="width" relation="greaterThanOrEqual" secondItem="XpF-Cy-5ZT" secondAttribute="height" multiplier="1:2" id="z1k-cP-5TZ"/>
                                     </constraints>
-                                    <variation key="default">
-                                        <mask key="constraints">
-                                            <exclude reference="dSZ-W3-9Th"/>
-                                        </mask>
-                                    </variation>
-                                </scrollView>
+                                </view>
                                 <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="UgF-b7-wPE"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="mHA-qq-xx0"/>
                                 </connections>
                             </tableView>
@@ -121,6 +105,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="headerView" destination="XpF-Cy-5ZT" id="EPC-bL-ElB"/>
                         <outlet property="tableView" destination="Ddj-ZE-hJB" id="IfU-mE-K3k"/>
                     </connections>
                 </viewController>

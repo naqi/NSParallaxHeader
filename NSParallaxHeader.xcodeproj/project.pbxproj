@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44269131DF568F43C9135F4D /* libPods-ParallaxHeader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A138E231038766FE5B18402A /* libPods-ParallaxHeader.a */; };
+		BE3FB9F81CC9EA2400693BCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3FB9EE1CC9EA2400693BCD /* AppDelegate.m */; };
+		BE3FB9F91CC9EA2400693BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3FB9EF1CC9EA2400693BCD /* Assets.xcassets */; };
+		BE3FB9FA1CC9EA2400693BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3FB9F01CC9EA2400693BCD /* LaunchScreen.storyboard */; };
+		BE3FB9FB1CC9EA2400693BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3FB9F21CC9EA2400693BCD /* Main.storyboard */; };
+		BE3FB9FC1CC9EA2400693BCD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE3FB9F41CC9EA2400693BCD /* Info.plist */; };
+		BE3FB9FD1CC9EA2400693BCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3FB9F51CC9EA2400693BCD /* main.m */; };
+		BE3FB9FE1CC9EA2400693BCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3FB9F71CC9EA2400693BCD /* ViewController.m */; };
+		BE3FBA021CC9F15500693BCD /* TableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3FBA011CC9F15500693BCD /* TableViewHeader.m */; };
+		BE3FBA041CC9F16C00693BCD /* TableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3FBA031CC9F16C00693BCD /* TableViewHeader.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CBF432DA87704C6CC35C914 /* Pods-ParallaxHeader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParallaxHeader.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParallaxHeader/Pods-ParallaxHeader.release.xcconfig"; sourceTree = "<group>"; };
+		495490E6258BB1F1A8465E3E /* Pods-ParallaxHeader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParallaxHeader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParallaxHeader/Pods-ParallaxHeader.debug.xcconfig"; sourceTree = "<group>"; };
+		A138E231038766FE5B18402A /* libPods-ParallaxHeader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParallaxHeader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3FB9ED1CC9EA2400693BCD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE3FB9EE1CC9EA2400693BCD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE3FB9EF1CC9EA2400693BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE3FB9F11CC9EA2400693BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE3FB9F31CC9EA2400693BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE3FB9F41CC9EA2400693BCD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3FB9F51CC9EA2400693BCD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE3FB9F61CC9EA2400693BCD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE3FB9F71CC9EA2400693BCD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE3FBA001CC9F15500693BCD /* TableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewHeader.h; sourceTree = "<group>"; };
+		BE3FBA011CC9F15500693BCD /* TableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewHeader.m; sourceTree = "<group>"; };
+		BE3FBA031CC9F16C00693BCD /* TableViewHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewHeader.xib; sourceTree = "<group>"; };
+		BE9CDDC11CC9AAEE0045BB05 /* NSParallaxHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSParallaxHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE9CDDBE1CC9AAEE0045BB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44269131DF568F43C9135F4D /* libPods-ParallaxHeader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABBCD36E06CA6C7F4F5B5D4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				495490E6258BB1F1A8465E3E /* Pods-ParallaxHeader.debug.xcconfig */,
+				1CBF432DA87704C6CC35C914 /* Pods-ParallaxHeader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6D66A59C623742A99DFE061 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A138E231038766FE5B18402A /* libPods-ParallaxHeader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE3FB9EC1CC9EA2400693BCD /* NSParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				BE3FB9FF1CC9EA2B00693BCD /* Support */,
+				BE3FB9ED1CC9EA2400693BCD /* AppDelegate.h */,
+				BE3FB9EE1CC9EA2400693BCD /* AppDelegate.m */,
+				BE3FB9F61CC9EA2400693BCD /* ViewController.h */,
+				BE3FB9F71CC9EA2400693BCD /* ViewController.m */,
+				BE3FB9EF1CC9EA2400693BCD /* Assets.xcassets */,
+				BE3FB9F01CC9EA2400693BCD /* LaunchScreen.storyboard */,
+				BE3FB9F21CC9EA2400693BCD /* Main.storyboard */,
+				BE3FB9F41CC9EA2400693BCD /* Info.plist */,
+				BE3FBA001CC9F15500693BCD /* TableViewHeader.h */,
+				BE3FBA011CC9F15500693BCD /* TableViewHeader.m */,
+				BE3FBA031CC9F16C00693BCD /* TableViewHeader.xib */,
+			);
+			path = NSParallaxHeader;
+			sourceTree = "<group>";
+		};
+		BE3FB9FF1CC9EA2B00693BCD /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				BE3FB9F51CC9EA2400693BCD /* main.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		BE9CDDB81CC9AAEE0045BB05 = {
+			isa = PBXGroup;
+			children = (
+				BE3FB9EC1CC9EA2400693BCD /* NSParallaxHeader */,
+				BE9CDDC21CC9AAEE0045BB05 /* Products */,
+				ABBCD36E06CA6C7F4F5B5D4F /* Pods */,
+				B6D66A59C623742A99DFE061 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE9CDDC21CC9AAEE0045BB05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE9CDDC11CC9AAEE0045BB05 /* NSParallaxHeader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE9CDDC01CC9AAEE0045BB05 /* NSParallaxHeader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9CDDD81CC9AAEE0045BB05 /* Build configuration list for PBXNativeTarget "NSParallaxHeader" */;
+			buildPhases = (
+				8848211B82D11AADFD4ACBD1 /* Check Pods Manifest.lock */,
+				BE9CDDBD1CC9AAEE0045BB05 /* Sources */,
+				BE9CDDBE1CC9AAEE0045BB05 /* Frameworks */,
+				BE9CDDBF1CC9AAEE0045BB05 /* Resources */,
+				FBDB577A05625B9AE268C0AE /* Embed Pods Frameworks */,
+				EED449C215F0F563D379891A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSParallaxHeader;
+			productName = ParallaxHeader;
+			productReference = BE9CDDC11CC9AAEE0045BB05 /* NSParallaxHeader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE9CDDB91CC9AAEE0045BB05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Naqi Syed";
+				TargetAttributes = {
+					BE9CDDC01CC9AAEE0045BB05 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E2DRT78R66;
+					};
+				};
+			};
+			buildConfigurationList = BE9CDDBC1CC9AAEE0045BB05 /* Build configuration list for PBXProject "NSParallaxHeader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE9CDDB81CC9AAEE0045BB05;
+			productRefGroup = BE9CDDC21CC9AAEE0045BB05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE9CDDC01CC9AAEE0045BB05 /* NSParallaxHeader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE9CDDBF1CC9AAEE0045BB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3FB9FC1CC9EA2400693BCD /* Info.plist in Resources */,
+				BE3FB9FB1CC9EA2400693BCD /* Main.storyboard in Resources */,
+				BE3FBA041CC9F16C00693BCD /* TableViewHeader.xib in Resources */,
+				BE3FB9F91CC9EA2400693BCD /* Assets.xcassets in Resources */,
+				BE3FB9FA1CC9EA2400693BCD /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8848211B82D11AADFD4ACBD1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EED449C215F0F563D379891A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParallaxHeader/Pods-ParallaxHeader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBDB577A05625B9AE268C0AE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParallaxHeader/Pods-ParallaxHeader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE9CDDBD1CC9AAEE0045BB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3FBA021CC9F15500693BCD /* TableViewHeader.m in Sources */,
+				BE3FB9FE1CC9EA2400693BCD /* ViewController.m in Sources */,
+				BE3FB9FD1CC9EA2400693BCD /* main.m in Sources */,
+				BE3FB9F81CC9EA2400693BCD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE3FB9F01CC9EA2400693BCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE3FB9F11CC9EA2400693BCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BE3FB9F21CC9EA2400693BCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE3FB9F31CC9EA2400693BCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE9CDDD61CC9AAEE0045BB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE9CDDD71CC9AAEE0045BB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE9CDDD91CC9AAEE0045BB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495490E6258BB1F1A8465E3E /* Pods-ParallaxHeader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/NSParallaxHeader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naqisyed.ParallaxHeader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE9CDDDA1CC9AAEE0045BB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CBF432DA87704C6CC35C914 /* Pods-ParallaxHeader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/NSParallaxHeader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naqisyed.ParallaxHeader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE9CDDBC1CC9AAEE0045BB05 /* Build configuration list for PBXProject "NSParallaxHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9CDDD61CC9AAEE0045BB05 /* Debug */,
+				BE9CDDD71CC9AAEE0045BB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE9CDDD81CC9AAEE0045BB05 /* Build configuration list for PBXNativeTarget "NSParallaxHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9CDDD91CC9AAEE0045BB05 /* Debug */,
+				BE9CDDDA1CC9AAEE0045BB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE9CDDB91CC9AAEE0045BB05 /* Project object */;
+}

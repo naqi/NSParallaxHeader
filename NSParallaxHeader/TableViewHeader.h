@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TableViewHeader : UIView
++(instancetype) instantiateViewWithSize:(CGSize) size;
 
 @end

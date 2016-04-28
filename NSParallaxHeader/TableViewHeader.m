@@ -10,12 +10,10 @@
 
 @implementation TableViewHeader
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
++(instancetype) instantiateViewWithSize:(CGSize) size{
+    
+    TableViewHeader *view = [[NSBundle mainBundle] loadNibNamed:@"TableViewHeader" owner:self options:nil].firstObject;
+    return view;
 }
-*/
 
 @end
